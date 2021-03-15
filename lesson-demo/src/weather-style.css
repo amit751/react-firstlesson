@@ -1,0 +1,17 @@
+.min-temp{
+    background-color: aqua;
+}
+.max-temp{
+    background-color: crimson;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.day-weather{
+    align-self: center;
+}
+body{
+    font-size: larger;
+}

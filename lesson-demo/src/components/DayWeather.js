@@ -1,5 +1,6 @@
 import React ,  { Component} from "react";
 
+
 export default class DayWeather extends Component{
     
     constructor(){

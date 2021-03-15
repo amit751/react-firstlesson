@@ -17,7 +17,7 @@ const data = [
   new Day("https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png","tuesday",11,20) ,
   new Day("https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png","wensday",22,26) , 
   new Day("https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png","thursday",5,24) , 
-  new Day("https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png","fryday",7,21) , 
+  new Day("https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png","friday",7,21) , 
   new Day("https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png","suterday",3,23) 
 ];
 
@@ -27,7 +27,7 @@ function App() {
     return <DayWeather imagePath = {item.imagePath} day = {item.day} minTemp = {item.minTemp} maxTemp = {item.maxTemp} key={index} />
   })
   return (
-    <div>
+    <div className = "container">
     {week}
     </div>
   );
