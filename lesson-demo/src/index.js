@@ -5,11 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-function showTime(){
-  ReactDOM.render(<App/> , document.getElementById("root"));
-}
 
-showTime();
+ReactDOM.render(<App/> , document.getElementById("root"));
+
 // setInterval(,1000);
 
 
